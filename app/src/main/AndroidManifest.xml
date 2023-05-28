@@ -16,9 +16,6 @@
             android:name=".Faculty_loginpage"
             android:exported="false" />
         <activity
-            android:name=".Faculty_page"
-            android:exported="false" />
-        <activity
             android:name=".QR_Scanner"
             android:exported="false" />
         <activity
@@ -26,7 +23,9 @@
             android:exported="false" />
         <activity
             android:name=".Student_registration"
-            android:exported="false" />
+            android:exported="false">
+
+         </activity>
         <activity
             android:name=".Faculty_registration"
             android:exported="false" />
